@@ -1,4 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```js
+ public handleChange = (evt: any) => {
+    this.setState({
+        model: {
+            ...this.state.model,
+            [evt.target.name]: evt.target.value
+        }
+    });
+}
+```
 
 ## Available Scripts
 
